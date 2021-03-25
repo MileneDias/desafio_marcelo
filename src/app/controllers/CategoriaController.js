@@ -3,6 +3,7 @@ import Produto from '../models/Produto';
 
 class CategoriaController {
     async index(req, res) {
+        //sadsa
         const categorias = await Categoria.findAll({
             include: [
                 {
