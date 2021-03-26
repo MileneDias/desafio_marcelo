@@ -1,7 +1,7 @@
 import Categoria from '../models/Categoria';
 import Produto from '../models/Produto';
 
-//Olá!!!
+//Boa noite
 
 class CategoriaController {
     async index(req, res) {
